@@ -5,6 +5,12 @@ body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
+.content a {
+  color: white;
+  padding: 5px 1rem;
+  text-decoration: none;
+}
+
 .showcase::after {
   content: '';
   height: 100vh;

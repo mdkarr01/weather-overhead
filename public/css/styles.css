@@ -37,10 +37,10 @@ body {
   left: 50%;
   margin-top: 105px;
   margin-left: -145px;
-  width: 350px;
+  width: 300px;
   height: 350px;
   text-align: center;
-  transition: all 1000ms;
+  /* transition: all 1000ms; */
   color: white;
 }
 

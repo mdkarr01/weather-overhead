@@ -17,7 +17,7 @@ const darksky = (latitude, longitude, cb) => {
       } else {
         cb(
           undefined,
-          `${body.daily.data[0].summary} The temperature is currently ${body.currently.temperature} degrees with a ${body.currently.precipProbability}% chance of rain.`
+          `${body.daily.data[0].summary} The temperature is currently ${body.currently.temperature} degrees with a ${body.currently.precipProbability}% chance of rain. The high for today will be ${body.daily.data[0].temperatureHigh} degrees with a low of ${body.daily.data[0].temperatureLow}. Winds will gust to ${body.daily.data[0].windGust} mph.`
         );
       }
     }

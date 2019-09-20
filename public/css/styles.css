@@ -71,3 +71,15 @@ input[type='submit'] {
   color: #fff;
   padding: 0.5rem;
 }
+
+.main {
+  color: #333333;
+  font-family: arial;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0 16px;
+
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
